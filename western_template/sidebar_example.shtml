@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html><!-- InstanceBegin template="/Templates/sidebar.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=9" >
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>DepartmentName | Western Washington University</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" type="text/css" href="http://www.wwu.edu/wwucommon/template/wwustyles.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/rsv/layout.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/rsv/menu-style.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/custom.css" />
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.js"></script>
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/navSliding.js"></script>
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.corner.js"></script>
+<link rel="shortcut icon" href="http://www.wwu.edu/wwucommon/favicon.ico" type="image/vnd.microsoft.icon" />
+
+<!--#include virtual="/western_template/includes/analytics.html" -->
+
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="wrap">
+  <!-- University header -->
+  <!--#include virtual="/western_template/resources/rsv/wwuheader.html"--> 
+  <div id="content-wrap">
+    <!--#include virtual="/western_template/includes/header.html"-->        
+    <div id="nav">
+	  <!--#include virtual="/western_template/includes/search.html"-->
+      <!-- Navigation section: modify site menu in includes/nav.html -->
+      <!--#include virtual="/western_template/includes/nav.html"-->
+    </div>
+    <div id="content">
+      <!-- CONTENT GOES HERE -->
+      <div id="main"><!-- InstanceBeginEditable name="Main Content" -->
+        <h1>Main H1 here</h1>
+ 
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae   diam blandit tortor auctor tempus. Duis nec odio dolor. Integer egestas   euismod enim, in placerat orci rhoncus ut. In ante enim, pretium ut   condimentum in.        </p>
+
+        <h2>h2 here        </h2>
+        <p> Morbi aliquet lobortis tellus et lobortis. Fusce sodales scelerisque   nisl, eu feugiat felis molestie et. Cum sociis natoque penatibus et   magnis dis parturient montes, nascetur ridiculus mus. </p>
+        <h3>Main H3 here</h3>
+        <p>Cras volutpat fermentum nisi vitae laoreet. In ac leo quis lectus   condimentum blandit. Cras vulputate sagittis metus, sit amet laoreet   mauris feugiat eu. Sed sed luctus enim. Praesent non metus vitae ligula   fermentum sodales sed in velit. Duis faucibus semper risus at posuere.   </p>
+        <h4>Main H4 here</h4>
+        <p>Aliquam erat volutpat. </p>
+      <!-- InstanceEndEditable --></div>
+      <!--main  -->
+      <div id="side"><!-- InstanceBeginEditable name="Side Content" -->
+        <h3>h3 header</h3>
+        <ul>
+          <li>menu1</li>
+          <li>menu2</li>
+          <li>menu3</li>
+          <li>adlkj kf</li>
+          <li>aslfjka jf</li>
+          <li>adsfja;jfd</li>
+        </ul>
+      <!-- InstanceEndEditable --></div>
+      <!--side  -->
+    </div><!--content  -->
+  </div><!--content-wrap  -->
+  <div class="end"></div>
+  <!-- Unit Footer -->
+  <!--#include virtual="/western_template/includes/footer.html"-->
+  <!-- University footer  -->
+  <!--#include virtual="/western_template/resources/rsv/wwufooter.html"--> 
+  <!-- University Copyright and Page Updated sections -->
+  <div id="page-date">
+    Page Updated
+    <!--#config timefmt="%m.%d.%Y"-->
+    <!--#echo var="LAST_MODIFIED"-->
+  </div>
+  <div id="copyright">
+     Copyright © 
+     <!--#config timefmt="%Y"-->
+     <!--#echo var="DATE_LOCAL"-->
+     Western Washington University  
+  </div><!-- copyright -->
+</div><!--wrap  --><!--Other scripts can be placed here -->
+<!-- This script rounds the corners of anything with class = "rounded", such as the department footer -->
+
+<script type="text/javascript">
+$(document).ready( function(){
+  $('.rounded').corner();
+});</script>
+
+<!-- InstanceBeginEditable name="Scripts" -->
+<!-- Put Scripts here -->
+<!-- InstanceEndEditable --> 
+
+</body>
+<!-- InstanceEnd --></html>

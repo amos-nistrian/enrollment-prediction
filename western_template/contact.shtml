@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html><!-- InstanceBegin template="/Templates/full-content.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=9" >
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>DepartmentName: Contact</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" type="text/css" href="http://www.wwu.edu/wwucommon/template/wwustyles.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/rsv/layout.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/rsv/menu-style.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/custom.css" />
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.js"></script>
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/navSliding.js"></script>
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.corner.js"></script>
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="wrap">
+  <!-- University header -->
+  <!--#include virtual="/western_template/resources/rsv/wwuheader.html"--> 
+  <div id="content-wrap">
+    <!--#include virtual="/western_template/includes/header.html"-->        
+    <div id="nav">
+	  <!--#include virtual="/western_template/includes/search.html"-->
+      <!-- Navigation section: modify site menu in includes/nav.html -->
+      <!--#include virtual="/western_template/includes/nav.html"-->
+    </div>
+    <div id="content">
+      <!-- CONTENT GOES HERE --><!-- InstanceBeginEditable name="Content" -->
+
+     <h1>Contact Us</h1>
+     <form class="contact_form" action="" method="post" name="contact_form">
+      <ul>
+        <li>
+          <h2>Contact Form</h2>
+          <span class="required_notification">* Denotes Required Field</span>
+        </li>
+        <li>
+          <label for="name">Name:<span class="required_mark">*</span></label>
+          <input type="text" name="name" placeholder="Jane Doe" required/>
+        </li>
+        <li>
+          <label for="email">Email:<span class="required_mark">*</span></label>
+          <input type="text" name="email" placeholder="jane_doe@students.wwu.edu" required/>
+        </li>
+        <li>
+          <label for="subject">Subject:</label>
+          <input type="text" name="subject" />
+        </li>
+        <li>
+          <label for="message">Message:<span class="required_mark">*</span></label>
+          <textarea name="message" cols="40" rows="6" required></textarea>
+        </li>
+        <li>
+          <label for="select-choice">Select Choice:</label>
+          <select name="select-choice">
+            <option value="Choice 1">Choice 1</option>
+            <option value="Choice 2">Choice 2</option>
+            <option value="Choice 3">Choice 3</option>
+          </select>
+        </li>   
+        <li>
+          <label for="radio-choice-1">Choice 1</label>
+          <input type="radio" name="radio-choice" id="radio-choice-1" tabindex="1" value="choice-1"/>
+          </br>
+          <label for="radio-choice-2">Choice 2</label>
+          <input type="radio" name="radio-choice" id="radio-choice-2" tabindex="2" value="choice-2"/>
+          </br>
+          <label for="radio-choice-3">Choice 3</label>
+          <input type="radio" name="radio-choice" id="radio-choice-3" tabindex="3" value="choice-3"/>
+        </li>  
+        <li> 
+          <label for="checkbox-1">Option 1</label>
+          <input type="checkbox" name="checkbox-1" id="checkbox1"/>
+          </br>
+          <label for="checkbox-2">Option 2</label>
+          <input type="checkbox" name="checkbox-2" id="checkbox2"/>
+          </br>
+          <label for="checkbox-2">Option 3</label>
+          <input type="checkbox" name="checkbox-3" id="checkbox3"/>
+        </li> 
+        <li>
+          <button class="submitBlue" type="submit">Submit</button>
+          <!-- <button class="submitGreen" type="submit">Submit</button> -->
+          <!-- <button class="submitRed" type="submit">Submit</button> -->
+
+          <!-- The lines above represent different color variations for submission buttons on your form. Only one of these three varations should be active at once. The two unused color varations should be commented out. -->
+        </li>
+      </ul>
+    </form>
+
+  <!-- InstanceEndEditable --></div><!--content  -->
+  </div><!--content-wrap  -->
+  <div class="end"></div>
+  <!-- Unit Footer -->
+  <!--#include virtual="/western_template/includes/footer.html"--> 
+  <!-- University footer  -->
+  <!--#include virtual="/western_template/resources/rsv/wwufooter.html"--> 
+  <!-- University Copyright and Page Updated sections -->
+  <div id="page-date">
+    Page Updated
+    <!--#config timefmt="%m.%d.%Y"-->
+    <!--#echo var="LAST_MODIFIED"-->
+  </div>
+  <div id="copyright">
+     Copyright © 
+     <!--#config timefmt="%Y"-->
+     <!--#echo var="DATE_LOCAL"-->
+     Western Washington University  
+  </div><!-- copyright -->
+</div><!--wrap  --><!--Google Analytics or other scripts can be placed here -->
+
+<!-- This script rounds the corners of anything with class = "rounded", such as the department footer -->
+
+<script type="text/javascript">
+$(document).ready( function(){
+  $('.rounded').corner();
+});</script>
+<!-- InstanceBeginEditable name="Scripts" -->
+<!-- Put Scripts and Google Analytics Codes here -->
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>

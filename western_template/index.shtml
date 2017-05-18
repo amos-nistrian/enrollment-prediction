@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html><!-- InstanceBegin template="/Templates/full-content.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=9" >
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>DepartmentName | Western Washington University</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" type="text/css" href="http://www.wwu.edu/wwucommon/template/wwustyles.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/rsv/layout.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/rsv/menu-style.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/custom.css" />
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.js"></script>
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/navSliding.js"></script>
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.corner.js"></script>
+<link rel="shortcut icon" href="http://www.wwu.edu/wwucommon/favicon.ico" type="image/vnd.microsoft.icon" />
+
+<!--#include virtual="/western_template/includes/analytics.html" -->
+
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="wrap">
+  <!-- University header -->
+  <!--#include virtual="/western_template/resources/rsv/wwuheader.html"--> 
+  <div id="content-wrap">
+    <!--#include virtual="/western_template/includes/header.html"-->        
+    <div id="nav">
+	  <!--#include virtual="/western_template/includes/search.html"-->
+      <!-- Navigation section: modify site menu in includes/nav.html -->
+      <!--#include virtual="/western_template/includes/nav.html"-->
+    </div>
+    <div id="content">
+      <!-- CONTENT GOES HERE --><!-- InstanceBeginEditable name="Content" -->
+      <h1>DepartmentName</h1>
+       <div align="center"><a href="#design"><strong>Design Guidelines</strong></a> | <a href="#gallery"><strong>Gallery</strong></a> | <a href="#menu"><strong>Expandable Menu</strong></a> | <a href="#slideshow"><strong>Slideshow</strong></a><strong></strong></div>
+        <p>This is your Web site's homepage. </p>
+<p>To successfully use this Dreamweaver template, set up your Dreamweaver site with these instructions: <a href="http://west.wwu.edu/atus/web/dwsite.shtml">http://west.wwu.edu/atus/web/dwsite.shtml</a></p>
+      <p>When you wish to create a new page for your site, please select File, New Page From Template, and then one of these listed:</p>
+        <ul>
+          <li><strong>full-content</strong> which does not have a right sidebar
+          <ul><li>sub-item here</li></ul>
+          </li>
+          <li><strong>two-column</strong> which does not have a right sidebar but provides two equal columns in the main content area</li>
+          <li><strong>three-column</strong> which has three content columns</li>
+          <li><strong>sidebar</strong> which has the right sidebar</li>
+          <li><strong>slideshow</strong> which has the automated slideshow functions</li>
+          <li>and <strong>gallery</strong> which has a photo gallery demo which you can use to put your own photos in.</li>
+        </ul>
+<p>For more information about the wwu template system, you may wish to visit the <a href="http://west.wwu.edu/atus/web/templates.shtml" target="_blank">online in-depth tutorial</a>.</p>
+<h2>File Structure</h2>
+<p>The template as provided is made up of these folders, the bold-named ones are available for your site files:</p>
+<ul>
+  <li><strong>docs</strong> - pdfs and word docs</li>
+  <li><strong>gallery</strong> - images for the photo gallery (optional)</li>
+  <li><strong>images</strong> - images and graphics for your site</li>
+  <li>includes - RESERVED! only for include files that are part of the template</li>
+  <li>resources - RESERVED! only for resources that are part of the template
+    <ul>
+      <li>filetypeicons - RESERVED! these are images used to display file types</li>
+      <li>rsv- RESERVED! your css and layout images are here - do not change or add</li>
+      <li>source - RESERVED! the photoshop source file for your banner is here</li>
+      <li><strong>custom.css</strong> - modify this to add your own css</li>
+      <li><strong>banner940x89.jpg</strong> - this is the banner image shown at the top of your site, modify by starting with resources/source/banner940x89.psd and then save as a .jpg file. </li>
+    </ul>
+  </li>
+  <li><strong>slideshow</strong> - images for the slideshow (optional)</li>
+  <li>Templates - RESERVED! Dreamweaver templates (layouts) </li>
+</ul>
+<p>If you have any other questions, please contact <a href="mailto:webhelp@wwu.edu">Web Help</a>. </p>
+        
+		<h2><a name="design" id="design"></a>Design guidelines</h2>
+        <p>The structures below can be used by highlighting the area you wish to style and then selecting from the Properties dialog at the bottom of Dreamweaver. (Toggle <em>Cntrl-F3</em> if you don't see the Properties dialog.) To comply with university standards for simple, elegant presentations,  please do not create custom font styles, sizes or colors. <strong>Bolded</strong> and <em>italicized</em> styles are acceptable and can be selected with the <strong>B</strong> and <strong><em>I</em></strong> selections in the Properties dialog. If your information is simply expressed and well-structured your users will be able to find it without recourse to dramatic fonts and colors. </p>
+        <h3>Use of Section Markers</h3>
+        <p>Do use Section Markers liberally to visually divide up your content. Section Markers are used like an outline to indicate the structure of your page. They are heavily used by those using screen readers so they also help make your page accessible to visually-challenged readers.</p>
+        <blockquote>
+          <h1>Heading 1</h1>
+          <p>Heading 1 provides the largest font size available on this template. It can only be used once at the top of your content area to indicate the <strong>title of the page</strong>.</p>
+          <h2>Heading 2</h2>
+          <p>Heading 2 is great for pages with multiple sections, as it can be used to better categorize content</p>
+          <p>Use the other headings to divide your content into further subsections.</p>
+          <h3>Heading 3</h3>
+          <h4>Heading 4</h4>
+          <h5>Heading 5</h5>
+          <h6>Heading 6</h6>
+        </blockquote>
+        <h3>List Items</h3>
+        <p>List items make it easy for your reader to see important information. Use them whenever you have three or more items. The two styles are unordered (bulleted) and ordered (numbered).</p>
+        <p>Unordered list: </p>
+        <ul>
+          <li>List item 1
+            <ul>
+              <li>Sublist item 1</li>
+              <li>Sublist item 2 </li>
+            </ul>
+          </li>
+          <li>List item 2 </li>
+          <li>List item 3 </li>
+        </ul>
+        <p>Ordered list:</p>
+        <ol>
+          <li>List item 1
+            <ol>
+              <li>Sublist item 1</li>
+              <li>Sublist item 2 </li>
+            </ol>
+          </li>
+          <li>List item 2</li>
+        </ol>
+        <h2>New Capabilities</h2>
+      <h3>Dynamic Functionality with jQuery</h3>
+        <p>Gallery, Slideshow, rounded corners and expandable navigation are all provided with jquery for the Western Template</p>
+        <h4>Automatic File Type Icons</h4>
+        <p>When you include links to non-html pages or email addresses, small icons are automatically placed next to the file name warning the user that a helper app is needed to read the file. For example:</p>
+        <ul>
+          <li><a href="/docs/fake.pdf">My PDF document</a></li>
+          <li><a href="docs/fake.doc">My Word Document</a></li>
+          <li><a href="docs/fake.xls">My Excel Document</a></li>
+          <li><a href="mailto:fake@wwu.edu">Email links</a></li>
+        </ul>
+      <p>However, if you wish to have an icon for esign forms, you will need to add the class <code>.esign</code> to the item like this:</p>
+        <ul>
+          <li><a href="docs/fake.html" class="esign">My Esign</a></li>
+        </ul>
+      <h4><a name="gallery" id="gallery"></a>Using the gallery</h4>
+        <p>You can see a sample gallery in <a href="test/gallery.shtml">gallery.shtml</a>.  You can easily modify it for your own purposes by adding and removing pictures from the gallery subfolder and updating the unordered-list in photos.html accordingly.</p>
+        <p>You can have multiple galleries if you so choose, but each one must follow the format found in <a href="test/gallery.shtml">gallery.shtml</a>: images inside of &lt;li&gt; tags (i.e. list items) inside of a &lt;ul&gt; (i.e. unordered list) tag with a class of "gallery" inside of a &lt;div&gt; tag with a class of "gallery-center". </p>
+        <p>The title attribute of the &lt;img&gt; tags provides the text which will be displayed underneath the image.</p>
+        <p>Should a visitor attempt to view the gallery with javascript disabled, they will simply be presented with all of the pictures at full-size listed vertically down the screen.</p>
+        <h4><a name="menu" id="menu"></a>Using the navigation menu</h4>
+<p>The navigation menu is found in /includes/nav.html . Note that this tag in your unordered lists:</p>
+<p><code>&lt;ul title=&quot;navigation&quot;&gt;</code></p>
+<p>causes your menu to expand and collapse on those items that have another unordered list inside them. If you do not wish the menu to expand and contract, remove the title part of the ul tag so it looks like this:</p>
+<p><code>&lt;ul&gt;</code></p>
+<h4><a name="slideshow" id="slideshow"></a>Creating a Slideshow</h4>
+        <p>To create the slideshow:</p>
+        <ol>
+          <li><a href="http://west.wwu.edu/atus/web/photoshop_web_images.shtml">Resize the images in photoshop</a>. For best results the images should be 200 px in height - the width doesn't matter except that anything more than 700px won't fit in the template. </li>
+          <li>Store the resized images in the slideshow folder provided in the template (or create one yourself)</li>
+          <li>Create the page: select <strong>File</strong>, <strong>New</strong>, <strong>Page From Template</strong>, and then select the slideshow template. </li>
+          <li>Find the first image which is shown with a dot next to it in Dreamweaver (it will not show this way on the web). Delete the image and drag one of the images from the slideshow folder into the space next to the dot. Repeat this for all the images you wish to cycle through. If you need more images, simply place your cursor next to one of the images, press enter, and drag an image to the new dot. </li>
+        </ol>
+        <h4>Rounded Corners and Shaded Boxes</h4>
+        <p>Four styles of shaded boxed areas are available in the Western Template:</p>
+        <ul>
+          <li><code>class=&quot;box-left-quote&quot;</code></li>
+          <li><code>class=&quot;box-right-quote&quot;</code></li>
+          <li><code>class=&quot;box-left-details&quot;</code></li>
+          <li><code>class=&quot;box-right-details&quot;</code></li>
+        </ul>
+        <p><a href="http://west.wwu.edu/atus/web/wwutemplates/boxexample.shtml">See them here</a></p>
+        <p>Note that by adding the class &quot;rounded&quot; to any of these the shading will be rounded. The result would be </p>
+        <p><code>class=&quot;box-left-quote rounded&quot;</code></p>
+        <h4>Accordions</h4>
+        <p>Accordions are sections that can be opened and closed by the viewer. They're very useful for FAQ pages or pages with lots of sections and text. To make these work you need a section header like this: </p>
+        <pre class="code">&lt;h3 class=&quot;slider&quot;&gt;Section 1&lt;/h3&gt;</pre> 
+       <p> and then surrounding the &quot;body&quot; of the message that will be hidden when the accordion is closed a div like this:</p>
+        <pre class="code">&lt;div class=&quot;drawer&quot;&gt;&lt;p&gt;Body of Section 1 here&lt;/p&gt;&lt;/div&gt;</pre> 
+        <p> Note that the accordion starts with all drawers closed and then clicking on a drawer opens that one and closes any that are open. Look at code for the example below:</p>
+        <h3 class="slider">Section 1</h3>
+        <div class="drawer">Contents of section 1 drawer</div>
+        <h3 class="slider">Section 2</h3>
+        <div class="drawer">Contents of section 2 drawer</div>
+        <h3 class="slider">Section 3</h3>
+        <div class="drawer">Contents of section 3 drawer</div>
+      <!-- InstanceEndEditable --></div><!--content  -->
+  </div><!--content-wrap  -->
+  <div class="end"></div>
+  <!-- Unit Footer -->
+  <!--#include virtual="/western_template/includes/footer.html"--> 
+  <!-- University footer  -->
+  <!--#include virtual="/western_template/resources/rsv/wwufooter.html"--> 
+  <!-- University Copyright and Page Updated sections -->
+  <div id="page-date">
+    Page Updated
+    <!--#config timefmt="%m.%d.%Y"-->
+    <!--#echo var="LAST_MODIFIED"-->
+  </div>
+  <div id="copyright">
+     Copyright © 
+     <!--#config timefmt="%Y"-->
+     <!--#echo var="DATE_LOCAL"-->
+     Western Washington University  
+  </div><!-- copyright -->
+</div><!--wrap  --><!--Other scripts can be placed here -->
+
+<!-- This script rounds the corners of anything with class = "rounded", such as the department footer -->
+
+<script type="text/javascript">
+$(document).ready( function(){
+  $('.rounded').corner();
+});</script>
+<!-- InstanceBeginEditable name="Scripts" -->
+<!-- Put Scripts here -->
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html><!-- InstanceBegin template="/Templates/gallery.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=9" >
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>DepartmentName | Western Washington University</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" type="text/css" href="http://www.wwu.edu/wwucommon/template/wwustyles.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/rsv/layout.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/rsv/menu-style.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/custom.css" />
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.js"></script>
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/navSliding.js"></script>
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.corner.js"></script>
+<link rel="shortcut icon" href="http://www.wwu.edu/wwucommon/favicon.ico" type="image/vnd.microsoft.icon" />
+<!--for Gallery -->
+<link href="http://www.wwu.edu/wwucommon/template/galleria.css" rel="stylesheet" type="text/css" media="screen"> 
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.galleria.js"></script> 
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/galleria_enhanced.js"></script>
+<!--#include virtual="/western_template/includes/analytics.html" -->
+
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="wrap">
+  <!-- University header -->
+  <!--#include virtual="/western_template/resources/rsv/wwuheader.html"--> 
+  <div id="content-wrap">
+    <!--#include virtual="/western_template/includes/header.html"-->        
+    <div id="nav">
+	  <!--#include virtual="/western_template/includes/search.html"-->
+      <!-- Navigation section: modify site menu in includes/nav.html -->
+      <!--#include virtual="/western_template/includes/nav.html"-->
+    </div>
+    <div id="content">
+      <!-- CONTENT GOES HERE --><!-- InstanceBeginEditable name="Content" -->
+      <h1>Photo Gallery</h1>
+      <p> You can easily modify the gallery for your own purposes by adding and removing   pictures from the <strong>/gallery</strong> subfolder and updating the unordered-list in   this page accordingly.</p>
+      <p>You can have multiple galleries if you so choose, but each one must follow the format found in <a href="http://west.wwu.edu/atus/web/wwutemplates/gallery.shtml">gallery.shtml</a>:   images inside of &lt;li&gt; tags (i.e. list items) inside of a   &lt;ul&gt; (i.e. unordered list) tag with a class of "gallery" inside of   a &lt;div&gt; tag with a class of "gallery-center". </p>
+      <p>The title attribute of the &lt;img&gt; tags provides the text which will be displayed underneath the image.</p>
+      <p>Should a visitor attempt to view the gallery with javascript   disabled, they will simply be presented with all of the pictures at   full-size listed vertically down the screen.</p>
+      <p>&nbsp;</p>
+      <ul class="gallery">
+      <li><img src="gallery/beachchairs.JPG" alt="chairs" />
+      <li><img src="gallery/beachpebbles.JPG" alt="pebbles" />            
+      <li><img src="gallery/greytree.JPG" alt="tree" />            
+      <li><img src="gallery/waterdrops.JPG" alt="water" />            
+      </ul>
+      <!-- InstanceEndEditable --></div><!--content  -->
+  </div><!--content-wrap  -->
+  <div class="end"></div>
+  <!-- Unit Footer -->
+  <!--#include virtual="/western_template/includes/footer.html"-->
+  <!-- University footer  -->
+  <!--#include virtual="/western_template/resources/rsv/wwufooter.html"--> 
+  <!-- University Copyright and Page Updated sections -->
+  <div id="page-date">
+    Page Updated
+    <!--#config timefmt="%m.%d.%Y"-->
+    <!--#echo var="LAST_MODIFIED"-->
+  </div>
+  <div id="copyright">
+     Copyright © 
+     <!--#config timefmt="%Y"-->
+     <!--#echo var="DATE_LOCAL"-->
+     Western Washington University  
+  </div><!-- copyright -->
+</div><!--wrap  --><!--Other scripts can be placed here -->
+
+<!-- This script rounds the corners of anything with class = "rounded", such as the department footer -->
+
+<script type="text/javascript">
+$(document).ready( function(){
+  $('.rounded').corner();
+});</script>
+<!-- InstanceBeginEditable name="Scripts" -->
+<!-- Put Scripts here -->
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>

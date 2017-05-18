@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=9" >
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>DepartmentName | Western Washington University</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="http://www.wwu.edu/wwucommon/template/wwustyles.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/rsv/layout.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/rsv/menu-style.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/custom.css" />
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.js"></script>
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/navSliding.js"></script>
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.corner.js"></script>
+<link rel="shortcut icon" href="http://www.wwu.edu/wwucommon/favicon.ico" type="image/vnd.microsoft.icon" />
+
+<!--#include virtual="/western_template/includes/analytics.html" -->
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="wrap">
+  <!-- University header -->
+  <!--#include virtual="/western_template/resources/rsv/wwuheader.html"--> 
+  <div id="content-wrap">
+    <!--#include virtual="/western_template/includes/header.html"-->        
+    <div id="nav">
+	  <!--#include virtual="/western_template/includes/search.html"-->
+      <!-- Navigation section: modify site menu in includes/nav.html -->
+      <!--#include virtual="/western_template/includes/nav.html"-->
+    </div>
+    <div id="content">
+      <!-- CONTENT GOES HERE -->
+      <div class="full"><!-- TemplateBeginEditable name="Top" -->
+		<h1>H1 page title</h1>
+      	<p>Top section</p><!-- TemplateEndEditable -->
+	  </div>
+      <div class="leftcol"><!-- TemplateBeginEditable name="Left Column" -->
+        <h2>h2 Left Column</h2>
+        <p>Left Section</p>
+      <!-- TemplateEndEditable --></div>
+      <div class="rightcol"><!-- TemplateBeginEditable name="Right Column" -->
+        <h2>h2 Right Column</h2>
+        <p>Right Section</p>
+      <!-- TemplateEndEditable --></div>
+      <div class="full end"><!-- TemplateBeginEditable name="Bottom" -->
+        <h2>h2 Bottom Header</h2>
+        <p>Bottom Section </p>
+      <!-- TemplateEndEditable --></div>
+    </div><!--content  -->
+  </div><!--content-wrap  -->
+  <div class="end"></div>
+  <!-- Unit Footer -->
+  <!--#include virtual="/western_template/includes/footer.html"-->
+  <!-- University footer  -->
+  <!--#include virtual="/western_template/resources/rsv/wwufooter.html"--> 
+  <!-- University Copyright and Page Updated sections -->
+  <div id="page-date">
+    Page Updated
+    <!--#config timefmt="%m.%d.%Y"-->
+    <!--#echo var="LAST_MODIFIED"-->
+  </div>
+  <div id="copyright">
+     Copyright © 
+     <!--#config timefmt="%Y"-->
+     <!--#echo var="DATE_LOCAL"-->
+     Western Washington University  
+  </div><!-- copyright -->
+</div><!--wrap  --> <!--Other scripts can be placed here -->
+
+<!-- This script rounds the corners of anything with class = "rounded", such as the department footer -->
+<script type="text/javascript">
+$(document).ready( function(){
+  $('.rounded').corner();
+});</script> 
+
+<!-- TemplateBeginEditable name="Scripts" -->
+<!-- Put Scripts here. Please place Google Analytics code in the analytics file -->
+<!-- TemplateEndEditable -->
+</body>
+</html>

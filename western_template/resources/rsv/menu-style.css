@@ -1,0 +1,82 @@
+@charset "utf-8";
+/*** The CSS to format the jQuery sliding navigation menus ***/
+
+/*
+$darkBlue:#003f87;
+$lightBlue:#0083d6;
+$red:#cc2d30;
+$yellowOrange:#ffc61e;
+$limeGreen:#bad80a;
+$paleBlue:#cce6f7;
+$softBlue:#ebf4f9; (even more pale blue)
+*/
+
+#nav ul {
+	margin-top: 5px;
+	margin-left: -2px;
+	padding-left: 2px;
+	background-color: #ebf4f9;
+	list-style-image: none;
+}
+
+#nav ul a {
+	/* Transition can be removed if preferred */
+	-webkit-transition: color 0.1s ease-in-out;
+	-moz-transition: color 0.1s ease-in-out;
+	-ms-transition: color 0.1s ease-in-out;
+	-o-transition: color 0.1s ease-in-out;
+	transition: color 0.1s ease-in-out;
+	text-decoration: none;
+	background-color: #cce6f7;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	border-color: #fff;
+}
+
+#nav ul a:hover {text-decoration: underline;}
+
+#nav ul li a {
+	color: #003f87;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#nav > ul > li.nav-heading .unexpanded, #nav > ul > li.nav-heading .expanded {
+	background-position:0 7px;
+	background-repeat:no-repeat;
+}
+#nav > ul > li.nav-heading .unexpanded {
+	background-image: url("arrow_rt.png");
+}
+#nav > ul > li.nav-heading .expanded {
+	background-image: url("arrow_down.png");
+}
+#nav > ul > li.nav-heading .nav-normal a {
+	font-size: .875em;
+	border: none;
+	color: #003f87;
+	background: none;
+	line-height: 1.5em;
+}
+/*add plain class for internal search box to be un-styled*/
+#nav ul.nav-useful, #nav .plain {
+	color: #003f87;
+	background: none;
+}
+/*add plain class for internal search box and Related Links to be un-styled*/
+#nav ul.nav-useful a {
+	border: none;
+	background: none;
+}
+
+/* This is to add same arrows for accordion slider/drawers on h3 class slider*/
+
+h3.slider{
+	background-image: url('arrow_rt.png');
+	background-position: center left;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	cursor: pointer;
+}
+h3.open {
+	background-image: url('arrow_down.png');
+}

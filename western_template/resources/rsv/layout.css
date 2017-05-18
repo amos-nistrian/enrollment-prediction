@@ -1,0 +1,555 @@
+@charset "utf-8";
+/*	This file contains the styles for the basic layout of your site.
+	Changes to these styles are not recommended as it can break your
+	layout. Please use custom.css to apply department specific changes.
+	Thank you!   ATUS 9/30/2011
+*/
+/*	Brand Colors for reference
+	dark blue:		#003f87		For background: #ccd9e7
+	light blue:		#0083d6		For background: #cce6f7
+	red:			#cc2d30		For background: #f5d5d6
+	yellow-orange:	#ffc61e		For background: #fff4d2
+	lime green:		#bad80a		For background: #f1f7c3
+*/
+
+/*	Captain's Log
+	-------------
+
+	04-15-14	cowanyb: Introduced FORM STYELS section;
+	05-03-12	cottles: modified h3.slider's background to display arrow graphic at the top of multi-line headers (menu-style.css)
+	01-24-12	mtr: removed clearboth from full to allow 2 col to start at top of page
+	12-12-11	mtr: Removed Avenir font, substituted with Muli; also changed templates to load Google fonts
+	12-09-11	cottles: Fixed some problems with #nav ul and accordion menus -
+	12-05-11	mtr: Modified text size and ul sizes down to 13px (.825em) and line-height to 1.5em;
+				fixed padding on left and rt justified images
+	12-05-11	cottles: Added text-indent: -1 em to #nav ul li a to help differentiate a single wrapped navigation link
+	11-30-11	dericke: Changed #content ul li to use list-style-image instead of background-image, added mailto and esign icons.
+*/
+/*	Get Google Web Fonts. */
+@import url(http://fonts.googleapis.com/css?family=Muli:400,400italic); /* Uncomment this to make italics available in headers */
+/* @import url(http://fonts.googleapis.com/css?family=Muli); /* If using the line above, comment this one out. */
+
+/*	B A S I C   H T M L   S T Y L E S */
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+body {
+	background-color: #F0F0E1;
+	color: #111;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	text-align:left;
+}
+a:link, a:visited {
+	color: #0083d6;
+	font-weight: normal;
+	text-decoration: none;
+}
+a:hover, a:active{
+	color: #ffc61e;
+	text-decoration: underline;
+}
+h1, h2, h3, h4, h5, h6, fieldset legend, .tagline, #toolbar, #footer, #menu, #nav, #wwu-footer {
+
+	font-weight: 300;
+	font-family:Muli, Verdana, Geneva, sans-serif;
+	color: #003f87;
+}
+h1 {
+	font-size: 1.6em;
+	padding: 10px 0px 10px 0px;
+}
+h2 {
+	font-size: 1.4em;
+	padding: 15px 0px 3px 0px;
+	border-bottom: 1px solid red;
+	margin-bottom: 1em;
+}
+h3 {
+	font-size: 1.2em;
+	padding: 10px 0px 8px 0px;
+}
+h4 {
+	font-size: 1.1em;
+	padding: 7px 0px 7px 0px;
+}
+h5 {
+	font-size: 1.0em;
+	padding: 6px 0px 6px 0px;
+}
+h6, fieldset legend {
+	font-size: 1.2em;
+	padding: 5px 0px 5px 0px;
+	color: #003f87;
+	z-index: -999;
+}
+p {
+/*	font-size: .875em;  14px in most browsers*/
+	font-size: .825em;  /*13px in most browsers*/
+	line-height: 1.5em;
+	padding: 5px 0px 5px 0px;
+}
+table {border: thin solid;}
+td {
+	padding: 5px;
+	font-size: .9em;
+	border:thin solid;
+}
+
+/* L A Y O U T   S T Y L E S */
+#wrap{
+	width: 1020px;
+	background-color: #FFF;
+}
+ul.horiz-menu {
+	margin:0;
+	padding:0;
+	list-style: none;
+	font-size: .84em;
+}
+ul.horiz-menu li {
+	display: inline;
+}
+#content-wrap{
+	width: 940px;
+/*	margin: 0 auto;*/
+	padding-bottom: 4em;
+	overflow:auto;
+}
+
+#banner a img {border:none;}
+/* C O N T E N T  */
+#search_dept {
+	-webkit-transition: color 0.1s ease-in-out;
+	-moz-transition: color 0.1s ease-in-out;
+	-ms-transition: color 0.1s ease-in-out;
+	-o-transition: color 0.1s ease-in-out;
+	transition: color 0.1s ease-in-out;
+	text-decoration: none;
+	background-color: #fff;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	border-color: white;
+	width: 200px;
+	padding: 5px 10px;
+}
+#searchgo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+/*	background-image: url(http://www.wwu.edu/wwucommon/template/searchbtn_dept.png);*/
+	background-image:  url(searchbtn_dept.png);
+	background-repeat: no-repeat;
+	border-style: hidden;
+	border-width: 0px;
+	height:25px;
+	width: 40px;
+	vertical-align: top;
+	margin-top: 3px;
+}
+input#searchfield {
+	color: #ccc;
+	font-style:italic;
+	padding-left: 1em;
+	margin-top: 3px;
+	height: 23px;
+	width: 135px;
+	margin-bottom: 15px;
+	margin-right: 2px;
+}
+#nav {
+	width: 220px;
+	float:left;
+	margin-top: 5px;
+	line-height: 1.5em;
+	font-size: .9em;
+}
+#nav ul {
+	list-style:none;
+	margin-left: 2px;
+	padding-left: 0px;  /* cottles 12-09-11 */
+}
+#nav ul ul {
+	margin-left: 12px;
+	padding-left: 0px;
+}
+#nav ul li a{
+	display: block;
+	padding-left: 20px;
+	text-indent: -5px;
+}
+
+#content{
+	margin-top: 30px;
+	width: 700px;
+	margin-left: 240px;/*from edge of content*/
+/*	overflow:auto;*/
+}
+
+/* for sidebar template*/
+#main{
+	width: 460px;
+	float:left;
+}
+#side{
+	float:right;
+	width: 220px; /*leaving 20px between main and side*/
+	font-size: .9em;
+}
+/* for 2 col template */
+.full {width:700px;}
+.leftcol{width:340px; float:left; padding-right: 10px;}
+.rightcol{width:340px; float:right; padding-left: 10px;}
+/* for 3 col template */
+.left_third, .right_third, .center_third{
+	width: 220px;
+}
+.left_third{float:left; margin-right: 10px;}
+.right_third{float:right; margin-left: 10px;}
+.center_third{float:left;margin-right: 10px; margin-left: 10px;}
+/* for slideshow template */
+.slideshow {
+	height:200px;
+}
+/*	F O O T E R  */
+#footer {
+	width: 1016px; /* just leave a couple of pixels gap to differentiate*/
+	height: 32px;
+	background-color: #cce6f7; /*blue*/
+	background-color: #f1f7ce; /*green*/
+	background-color: #fff4d2;/* yellow */
+	background-color: #eee;/* grey */
+}
+#footer ul{
+	line-height: 30px;
+	padding-left: 60px;
+}
+#footer ul.horiz-menu li a{
+	color:#003f87;
+    background-image:url(blue_1px.png);
+}
+#footer ul.horiz-menu li a{
+/*  color:#0083d6;
+  font-size:12px;
+    height:17px;*/
+  text-decoration:none;
+  display:inline-block;
+  background-repeat:no-repeat;
+  background-position:right center;
+  padding:0px 10px 0px 5px;
+  }
+#footer ul.horiz-menu li:last-child a{
+  background-image:none;
+  padding-right:0px;
+}
+
+#content ul {
+	list-style:none;
+	padding-left: 2em;
+}
+#content ul li {
+	padding-left: .25em;
+/*	padding-top: 2px;*/
+	list-style-image:url(red_square.png);
+	/*background-image:url(red_square.png);
+	background-position: 4px left;
+	background-repeat: no-repeat;*/ /*Changed to list-style-image 113011 dericke */
+	font-size: .825em;
+	line-height: 1.5em;
+}
+#content ul.narrow-list  {
+	padding-left: 1em;
+}
+#content ul.slideshow li, #content ul.gallery li{
+	background-image: none;
+	list-style-image:none;
+}
+#content ol{
+	padding-left: 2.5em;
+}
+#content ol li {
+	font-size: .825em;
+	line-height: 1.5em;
+	padding-left: .25em;
+}
+/*	G E N E R I C   S T Y L E S */
+
+.hide {
+	display: none;
+}
+.small-print {
+	font-size: .84em;
+}
+.end{clear:both;}
+.clear-right {clear:right}
+.clear-left {clear:left}
+
+.box-left-quote, .box-right-quote {
+	width: 220px;
+	background-color: #cce6f7;
+	font-size: 1.5em;
+	padding: .5em;
+	font-style: italic;
+	border:none;
+	text-align:center;
+}
+.box-left-details, .box-right-details, .box {
+	width: 220px;
+	background-color: #cce6f7;
+	font-size: .9em;
+	padding: .4em;
+/*	font-style: italic;*/
+}
+.box {width: 50%;}
+.box-left-quote, .box-left-details {
+	float:left;
+	margin-right: 20px;
+}
+.box-right-quote, .box-right-details {
+	float:right;
+	margin-left: 20px;
+}
+.box-right-details ul {
+	text-align:left;
+}
+.box-right-details img, .box-left-details img, .box img{
+		display:block; /*mtr */
+	margin: 0 auto;
+}
+.centered { display:block; margin:auto; text-align:center; padding: 1em 0;}
+.small {font-size:.9em; }
+.code, code {
+	font-family:"Courier New", Courier, monospace;
+	font-weight: 700;
+	color: #cc2d30;
+}
+.code {
+	margin-left: 3em;
+}
+hr {
+	border: 1px solid #bad80a;
+	margin:.75em 0;
+}
+div.right p , div.left p {
+	text-align:center;
+	color: #666;
+	font-style: italic;
+	font-size: .8em;
+}
+div.right img{
+	margin: 0 0 0 10px;
+}
+div.left img{
+	margin: 0 10px 0 0;
+}
+.right{
+	float:right;
+}
+.left{
+	float:left;}
+.end {clear:both;}
+
+/*	F O R M  S T Y L E S
+
+	Adds styling to forms and related elements
+*/
+
+
+#content form ul li {
+	list-style-image: none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+label {  
+    display: inline-block;    
+    position: relative;  
+    padding-left: 0px;  
+    margin-right: 15px;  
+    font-size: 13px;  
+}  
+
+*:focus {outline: none;}
+/* Disable default WebKit focus style */ 
+
+.contact_form li{
+    padding:12px; 
+    border-bottom:1px solid #eee;
+    position:relative;
+}
+
+.contact_form li:first-child, li:last-child {
+	border-bottom: none;
+}
+
+.required_notification {
+    color:#cc2d30; 
+    margin:0;
+    display:inline;
+    float:right;
+}
+
+.required_mark {
+    color:#cc2d30; 
+    display:inline;
+    float:left;
+    margin-right: 5px;
+}
+
+.contact_form label {
+    width:150px;
+    margin-top:3px;
+}
+
+.contact_form input {
+    height:15px; 
+    width:220px; 
+    padding:5px 8px;
+}
+
+.contact_form input, .contact_form textarea { 
+    border: 1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 3px 10px #eee inset;
+    border-radius: 2px;
+}
+
+input[type="radio"] {
+	border: none;
+    box-shadow: none;
+    border-radius: 0
+}
+
+input[type="checkbox"] {
+	border: none;
+    box-shadow: none;
+    border-radius: 0
+}
+
+.contact_form input:focus, .contact_form textarea:focus {
+    background: #fff; 
+    border:1px solid #555; 
+    box-shadow: 0 0 3px #aaa; 
+}
+
+button.submitBlue {
+    background-color: #003f87;
+  	border: none;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    float: left;
+}
+
+button.submitGreen {
+    background-color: #bad80a;
+  	border: none;
+    color: #003f87;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    float: left;
+}
+
+button.submitRed {
+    background-color: #cc2d30;
+  	border: none;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    float: left;
+}
+
+/*	F I L E  T Y P E  I C O N S */
+/*
+	Adds a corresponding file icons to all links of a certain filetype
+	These icons are shown on the right.
+	To switch icons to the left: change word right to left and swap the 2nd and 4th values in padding
+*/
+
+.esign {
+	/* Icon is GPL, check file's metadata for details */
+	background: url("/webtech/resources/filetypeicons/esign.png") no-repeat right;
+	overflow: visible;
+	padding: 1px 20px 1px 0;
+}
+a[href$='.pdf'] {
+	background: url("/webtech/resources/filetypeicons/pdf.png") no-repeat right;
+	overflow: visible;
+	padding: 1px 20px 1px 0;
+}
+
+a[href$='.doc'], a[href$='.docx'] {
+	background: url("/webtech/resources/filetypeicons/doc.png") no-repeat right;
+	overflow: visible;
+	padding: 1px 20px 1px 0;
+}
+
+a[href$='.ppt'], a[href$='.pptx'] {
+	background: url("/webtech/resources/filetypeicons/ppt.png") no-repeat right;
+	overflow: visible;
+	padding: 1px 20px 1px 0;
+}
+
+a[href$='.xls'], a[href$='.xlsx'] {
+	background: url("/webtech/resources/filetypeicons/xls.png") no-repeat right;
+	overflow: visible;
+	padding: 1px 20px 1px 0;
+}
+a[href^='mailto:']{
+	background:url("/webtech/resources/filetypeicons/email.png") no-repeat right;
+	overflow: visible;
+	padding: 1px 20px 1px 0;
+}
+#logo {
+	background:none;
+}
+/*	P R I N T  S T Y L E S */
+@media print {
+	* {
+		overflow:hidden;
+	}
+	body {
+		font-size:12pt;
+		background-color:transparent;
+	}
+	#header {
+		height:0;
+	}
+	#logo {
+		position:absolute;
+		top:0;
+/*		left:3em;*/
+		left:1em;
+		height: 89px;
+		width: 144px;
+	}
+	#logo img {
+		height:0.66in;
+		width:auto;
+	}
+	#banner img {
+		width:7in;
+		height:auto;
+	}
+	#nav, #toolbar, #white-bar, #blue-bar, #footer, #wwu-footer {
+    	display:none;
+	}
+	#wrap, #content-wrap, #content {width:100%}
+	#content {
+		margin:0;
+	}
+	#copyright, #page-date {
+		font-size:.5em;
+		margin:0;
+	}
+	/* Two Column */
+	.leftcol, .rightcol {width:45%;}
+	/* Three Column and Sidebar */
+	.left_third, .center_third, .right_third, #side {width:30%;}
+	.right_third {float:left} /*Could possibly be moved into main
+								css, but don't know reasons for it
+								being float:right */
+	#main {width:65%}
+}

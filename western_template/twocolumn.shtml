@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html><!-- InstanceBegin template="/Templates/two-column.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=9" >
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>DepartmentName | Western Washington University</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" type="text/css" href="http://www.wwu.edu/wwucommon/template/wwustyles.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/rsv/layout.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/rsv/menu-style.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/custom.css" />
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.js"></script>
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/navSliding.js"></script>
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.corner.js"></script>
+<link rel="shortcut icon" href="http://www.wwu.edu/wwucommon/favicon.ico" type="image/vnd.microsoft.icon" />
+
+<!--#include virtual="/western_template/includes/analytics.html" -->
+
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="wrap">
+  <!-- University header -->
+  <!--#include virtual="/western_template/resources/rsv/wwuheader.html"--> 
+  <div id="content-wrap">
+    <!--#include virtual="/western_template/includes/header.html"-->        
+    <div id="nav">
+	  <!--#include virtual="/western_template/includes/search.html"-->
+      <!-- Navigation section: modify site menu in includes/nav.html -->
+      <!--#include virtual="/western_template/includes/nav.html"-->
+    </div>
+    <div id="content">
+      <!-- CONTENT GOES HERE -->
+      <div class="full"><!-- InstanceBeginEditable name="Top" -->
+		<h1>H1 for page title</h1>
+      	<p>TOP:</p><!-- InstanceEndEditable -->
+	  </div>
+      <div class="leftcol"><!-- InstanceBeginEditable name="Left Column" -->
+        <h2>left column</h2>
+        <p>LEFT:</p>
+      <!-- InstanceEndEditable --></div>
+      <div class="rightcol"><!-- InstanceBeginEditable name="Right Column" -->
+        <h2>right column</h2>
+        <p>RIGHT: </p>
+      <!-- InstanceEndEditable --></div>
+      <div class="full end"><!-- InstanceBeginEditable name="Bottom" -->
+        <p>BOTTOM: </p>
+      <!-- InstanceEndEditable --></div>
+    </div><!--content  -->
+  </div><!--content-wrap  -->
+  <div class="end"></div>
+  <!-- Unit Footer -->
+  <!--#include virtual="/western_template/includes/footer.html"-->
+  <!-- University footer  -->
+  <!--#include virtual="/western_template/resources/rsv/wwufooter.html"--> 
+  <!-- University Copyright and Page Updated sections -->
+  <div id="page-date">
+    Page Updated
+    <!--#config timefmt="%m.%d.%Y"-->
+    <!--#echo var="LAST_MODIFIED"-->
+  </div>
+  <div id="copyright">
+     Copyright © 
+     <!--#config timefmt="%Y"-->
+     <!--#echo var="DATE_LOCAL"-->
+     Western Washington University  
+  </div><!-- copyright -->
+</div><!--wrap  --> <!--Other scripts can be placed here -->
+
+<!-- This script rounds the corners of anything with class = "rounded", such as the department footer -->
+<script type="text/javascript">
+$(document).ready( function(){
+  $('.rounded').corner();
+});</script> 
+
+<!-- InstanceBeginEditable name="Scripts" -->
+<!--Google Analytics or other scripts can be placed here -->
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>

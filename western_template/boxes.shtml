@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html><!-- InstanceBegin template="/Templates/full-content.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=9" >
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>DepartmentName | Western Washington University</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" type="text/css" href="http://www.wwu.edu/wwucommon/template/wwustyles.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/rsv/layout.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/rsv/menu-style.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/custom.css" />
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.js"></script>
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/navSliding.js"></script>
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.corner.js"></script>
+<link rel="shortcut icon" href="http://www.wwu.edu/wwucommon/favicon.ico" type="image/vnd.microsoft.icon" />
+
+<!--#include virtual="/western_template/includes/analytics.html" -->
+
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="wrap">
+  <!-- University header -->
+  <!--#include virtual="/western_template/resources/rsv/wwuheader.html"--> 
+  <div id="content-wrap">
+    <!--#include virtual="/western_template/includes/header.html"-->        
+    <div id="nav">
+	  <!--#include virtual="/western_template/includes/search.html"-->
+      <!-- Navigation section: modify site menu in includes/nav.html -->
+      <!--#include virtual="/western_template/includes/nav.html"-->
+    </div>
+    <div id="content">
+      <!-- CONTENT GOES HERE --><!-- InstanceBeginEditable name="Content" -->
+        <h1>Rounded Corners and Shaded Boxes</h1>
+        <p>Four styles of shaded boxed areas are available in the Western Template:</p>
+      <ul>
+          <li class="code">class="box-left-quote"</li>
+          <li class="code">class="box-right-quote"</li>
+          <li class="code">class="box-left-details"</li>
+          <li class="code">class="box-right-details"</li>
+        </ul>
+        <p>Note that by adding the class "rounded" to any of these the shading will be rounded. The result would be </p>
+<p class="code">class="box-left-quote rounded"</p>
+        <h2>Examples</h2>
+        <p>Fusce et mi vitae odio iaculis fermentum. Ut turpis nisi, egestas quis   sodales vitae, molestie tempor enim. Duis ullamcorper molestie purus non   fermentum. Morbi tristique tincidunt ligula id adipiscing. </p>
+        <p class="box-left-quote rounded">Apply class= &quot;box-left-quote&quot; for this style and &quot;rounded&quot; if you want that as well</p>
+        <p>Sed blandit blandit arcu non dignissim. Nam hendrerit, nulla eget   pretium eleifend, augue odio vestibulum odio, vel congue purus dui ac   neque. Duis vestibulum diam vel ipsum facilisis a porta ante   sollicitudin. Cum sociis natoque penatibus et magnis dis parturient   montes, nascetur ridiculus mus. Mauris blandit mollis orci et iaculis.   Aenean in nibh sit amet dolor fermentum suscipit a id nisi. Sed rhoncus   urna id justo tincidunt nec accumsan libero posuere. Vivamus lacus   velit, euismod in vehicula et, suscipit vitae neque. Ut pretium est   gravida purus aliquam pulvinar. Cras vel nibh libero, id faucibus nulla.   Nulla vulputate, ipsum vitae molestie luctus, erat neque fringilla   velit, Aenean   eu odio sit amet magna porta venenatis tristique eget sem. Duis   facilisis blandit tellus, quis viverra odio dapibus id. Cras laoreet   lorem et tortor pretium sed condimentum urna cursus. </p>
+        <div class="box-right-details rounded">
+          <p>Apply class="box-right-details" for this style</p>
+          <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+          </ul>
+        </div>
+       <p> Sed blandit blandit arcu non dignissim. Nam hendrerit, nulla eget pretium eleifend, augue odio vestibulum odio, vel congue purus dui ac neque. Duis vestibulum diam vel ipsum facilisis a porta ante sollicitudin. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris blandit mollis orci et iaculis. Aenean in nibh sit amet dolor fermentum suscipit a id nisi. Sed rhoncus urna id justo tincidunt nec accumsan libero posuere. Vivamus lacus velit, euismod in vehicula et, suscipit vitae neque. Ut pretium est gravida purus aliquam pulvinar. Cras vel nibh libero, id faucibus nulla. Nulla vulputate, ipsum vitae molestie luctus, erat neque fringilla velit, quis gravida urna odio vel lectus. Morbi tempor lectus eget enim auctor consequat. Suspendisse placerat, lorem at mattis adipiscing, </p>
+      <!-- InstanceEndEditable --></div><!--content  -->
+  </div><!--content-wrap  -->
+  <div class="end"></div>
+  <!-- Unit Footer -->
+  <!--#include virtual="/western_template/includes/footer.html"--> 
+  <!-- University footer  -->
+  <!--#include virtual="/western_template/resources/rsv/wwufooter.html"--> 
+  <!-- University Copyright and Page Updated sections -->
+  <div id="page-date">
+    Page Updated
+    <!--#config timefmt="%m.%d.%Y"-->
+    <!--#echo var="LAST_MODIFIED"-->
+  </div>
+  <div id="copyright">
+     Copyright © 
+     <!--#config timefmt="%Y"-->
+     <!--#echo var="DATE_LOCAL"-->
+     Western Washington University  
+  </div><!-- copyright -->
+</div><!--wrap  --><!--Other scripts can be placed here -->
+
+<!-- This script rounds the corners of anything with class = "rounded", such as the department footer -->
+<script type="text/javascript">
+$(document).ready( function(){
+  $('.rounded').corner();
+});</script>
+
+<!-- InstanceBeginEditable name="Scripts" -->
+<!-- Put Scripts here -->
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>

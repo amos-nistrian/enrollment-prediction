@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html><!-- InstanceBegin template="/Templates/slideshow.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=9" >
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>DepartmentName | Western Washington University</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" type="text/css" href="http://www.wwu.edu/wwucommon/template/wwustyles.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/rsv/layout.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/rsv/menu-style.css" />
+<link rel="stylesheet" type="text/css" href="/western_template/resources/custom.css" />
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.js"></script>
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/navSliding.js"></script>
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.corner.js"></script>
+<link rel="shortcut icon" href="http://www.wwu.edu/wwucommon/favicon.ico" type="image/vnd.microsoft.icon" />
+<!--For slideshow-->
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery_cycle_lite.js"></script>
+
+<!--#include virtual="/western_template/includes/analytics.html" -->
+
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="wrap">
+  <!-- University header -->
+  <!--#include virtual="/western_template/resources/rsv/wwuheader.html"--> 
+  <div id="content-wrap">
+    <!--#include virtual="/western_template/includes/header.html"-->        
+    <div id="nav">
+	  <!--#include virtual="/western_template/includes/search.html"-->
+      <!-- Navigation section: modify site menu in includes/nav.html -->
+      <!--#include virtual="/western_template/includes/nav.html"-->
+    </div>
+    <div id="content">
+      <!-- InstanceBeginEditable name="Content" -->
+      <h1>Creating a Slideshow</h1>
+      <p>To create the slideshow:</p>
+      <ol>
+        <li><a href="http://west.wwu.edu/atus/web/photoshop_web_images.shtml">Resize the images in photoshop</a>.   For best results the images should be 200 px in height - the width   doesn't matter except that anything more than 700px won't fit in the   template. </li>
+        <li>Store the resized images in the slideshow folder provided in the template (or create one yourself)</li>
+        <li>Create the page: select <strong>File</strong>, <strong>New</strong>, <strong>Page From Template</strong>, and then select the slideshow template. </li>
+        <li>Find the first image which is shown with a dot next to it   in Dreamweaver (it will not show this way on the web). Delete the image   and drag one of the images from the slideshow folder into the space next   to the dot. Repeat this for all the images you wish to cycle through.   If you need more images, simply place your cursor next to one of the   images, press enter, and drag an image to the new dot. </li>
+      </ol>
+      <h1>&nbsp;</h1><p>Top Content Here</p><!-- InstanceEndEditable -->
+      <!-- This list MUST have the class of slideshow. 
+      All images should have a height of 200 px or less - please resize to this height for best results.
+      Place images for the slideshow in the slideshow folder-->  
+        <ul class="slideshow">
+          <!-- InstanceBeginEditable name="SlideshowImages" -->
+            <li><img src="slideshow/waterdrops_200.jpg" width="286" height="200"  /></li>
+            <li><img src="slideshow/skyview_200.jpg" width="301" height="200" /></li>
+            <li><img src="slideshow/greytree_200.jpg" width="363" height="200" /></li>
+            <li><img src="slideshow/bayview_200.jpg" width="252" height="200" /></li>
+          <!-- InstanceEndEditable -->
+      </ul>
+      <!-- InstanceBeginEditable name="Content2" --><p>Bottom Content Here</p><!-- InstanceEndEditable -->
+    </div><!--content  -->
+  </div><!--content-wrap  -->
+  <div class="end"></div>
+  <!-- Unit Footer -->
+  <!--#include virtual="/western_template/includes/footer.html"-->
+  <!-- University footer  -->
+  <!--#include virtual="/western_template/resources/rsv/wwufooter.html"--> 
+  <!-- University Copyright and Page Updated sections -->
+  <div id="page-date">
+    Page Updated
+    <!--#config timefmt="%m.%d.%Y"-->
+    <!--#echo var="LAST_MODIFIED"-->
+  </div>
+  <div id="copyright">
+     Copyright © 
+     <!--#config timefmt="%Y"-->
+     <!--#echo var="DATE_LOCAL"-->
+     Western Washington University  
+  </div><!-- copyright -->
+</div><!--wrap  --><!--Other scripts can be placed here -->
+
+<!-- This script rounds the corners of anything with class = "rounded", such as the department footer -->
+<!-- InstanceBeginEditable name="Scripts" -->
+<!-- Put Scripts here -->
+<script type="text/javascript">
+$(document).ready( function(){
+  $('.rounded').corner();
+<!--For slideshow-->
+  $('.slideshow').cycle();
+});</script>
+<!-- InstanceEndEditable -->
+
+</body>
+<!-- InstanceEnd --></html>
